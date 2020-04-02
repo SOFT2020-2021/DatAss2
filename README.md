@@ -14,16 +14,20 @@ Create a new HBase table called foods with a single column family to store the f
    
 
 
- Create code for importing the food data into the new table.
+#### Create code for importing the food data into the new table.
 
- 
-   Script "HbaseFoodScript.rb" submitted in this repo
-   command to run the script
-   cat $FOOD_LOC/Food_Display_Table.xml | $HBASE_HOME/hbase-2.2.3/bin/hbase shell $SCRIPT_FILE_LOC/insertfood.rb
+Script "HbaseFoodScript.rb" submitted in this repo
+<br>
+Command to run the script
+<br>
+```
+cat $FOOD_LOC/Food_Display_Table.xml | $HBASE_HOME/hbase-2.2.3/bin/hbase shell $SCRIPT_FILE_LOC/insertfood.rb
+```
+Using the HBase shell, query the foods table for information about your favourite foods.
 
- Using the HBase shell, query the foods table for information about your favourite foods.
-
+```
 hbase(main):011:0> get 'foods','58130010'
+``` 
 
 |COLUMN                            |  CELL
 | ------------- | ------------- |
