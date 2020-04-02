@@ -53,5 +53,7 @@ portions:Multiplier                | timestamp=1585844511077, value=.50000
 text:                              | timestamp=1585844511077, value=Meat lasagna
 
 1 row(s)
+<br>
 Took 0.0926 seconds
+<br>
 Meat lasagna :)
