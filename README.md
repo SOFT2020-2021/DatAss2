@@ -2,17 +2,15 @@
 
 
 ## Tasks given
-
 Create a new HBase table called foods with a single column family to store the facts.
-
-   *   What can be used for the row key?
-       The unique identifier Food_Code we have chosen to use as our row key
-   *   What column family options make sense for this data?
-       We have chosen 3 families.
-       "Text" which contains the name of the food
-       "portions" which contains details of the portions sizes
-       "ingredients" which contains the ingredients in the food type
-       "nutrient" which contains the nutrients of the food type
+- What can be used for the row key?
+  - The unique identifier Food_Code we have chosen to use as our row key
+- What column family options make sense for this data?
+  - We have chosen 3 families.
+  - "Text" which contains the name of the food
+  - "portions" which contains details of the portions sizes
+  - "ingredients" which contains the ingredients in the food type
+  - "nutrient" which contains the nutrients of the food type
    
 
 
